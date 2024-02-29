@@ -36,7 +36,7 @@ public class ConsumptionScenarios extends BaseClass {
 
 	}
 
-//	@Test
+	@Test
 	public void searchETextbookWithNameAndDoidAndQRCode() throws Exception {
 
 		String userRole = UserOnBoarding.SelectUserRole("Student");
@@ -57,7 +57,7 @@ public class ConsumptionScenarios extends BaseClass {
 		CourseConsumptionMethods.searchEtextbookForConsumption(QRCode);
 	}
 
-//	@Test
+	@Test
 	public void VerifyUserClickOnViewAllAndCloseButtonForTheMyCoursesSectionAndCourseCardDetailIsDisplayed()
 			throws Exception {
 
@@ -69,7 +69,7 @@ public class ConsumptionScenarios extends BaseClass {
 
 	}
 
-//	@Test
+	@Test
 	public void VerifyUserIsAbleToGetTheCompletionCertificate() throws Exception {
 
 		String userRole = UserOnBoarding.SelectUserRole("Student");
@@ -91,7 +91,7 @@ public class ConsumptionScenarios extends BaseClass {
 
 	}
 
- // @Test
+  @Test
 	public void VerifyUserSeeCeritificateCriteriaAndBatchDetailsInTheCourseTOC() throws Exception {
 
 		String userRole = UserOnBoarding.SelectUserRole("Student");
@@ -113,7 +113,7 @@ public class ConsumptionScenarios extends BaseClass {
 
 	}
 
-//	@Test
+	@Test
 	public void VerifyUserIsAbleToGetTheMeritCertificate() throws Exception {
 
 		String userRole = UserOnBoarding.SelectUserRole("Student");
@@ -136,7 +136,7 @@ public class ConsumptionScenarios extends BaseClass {
 
 	}
 
-//	@Test
+	@Test
 	public void checkCourseExpiryMessageForUser() throws Exception {
 
 		String userRole = UserOnBoarding.SelectUserRole("Student");
